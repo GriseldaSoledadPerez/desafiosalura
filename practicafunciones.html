@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        input[type="number"] {
+         background-color: lightblue;
+         font-size:20px;
+         width: 80%;
+         border: 2px solid rgb(5, 5, 243);
+         padding: 5px;
+        }
+        body{
+            color: burlywood;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola!! voy a hacer los distintos desafios: <br>
+    <h2> Función que calcule el <br>
+         índice de masa corporal</h2>
+        
+    </div>
+                <input type="number" id="valorPeso" placeholder="Ingrese su peso en kilogramos">
+                <input type="number" id="valorAltura" placeholder="Ingrese su altura en metros">
+                <div class="chute container__botones">
+                    <button onclick="calculadoraIMC()"; class="container__boton">CALCULAR</button>
+    </div>
+    <h3 id="respuestaImc"> </h3>
+    <hr>
+    <div class="container__texto">
+    <h2>Calcula el factorial de un número:</h2>
+        </div>
+            <input type="number" id="numeroF" placeholder="Ingrese un número positivo: ">
+            <div class="chute container__botones">
+                  <button onclick="calculaFactorial()"; class="container__boton">FACTORIAL</button>
+            </div>
+        </div>
+    <h3 id="resultadoFactorial"></h3>
+    <hr>
+    <div class="container__texto">
+    <h2>Cotiza tus dolares: </h2> <p>1 USD = R$480</p>
+        </div>
+            <input type="number" id="dolar" placeholder="Dolar: ">
+            <div class="chute container__botones">
+                  <button onclick="cotizar()"; class="container__boton">CALCULAR</button>
+            </div>
+        </div>
+    <h3 id="resultadocotizar"></h3>
+    <hr>
+    <div class="container__texto">
+    <h2>Calculos de Perímetro y Área: </h2><br>
+    <P> RECTANGULAR </P>
+        </div>
+            <input type="number" id="valorAncho" placeholder="Ingrese el ancho: ">
+            <input type="number" id="valorLargo" placeholder="Ingrese el largo: ">
+            <div class="chute container__botones">
+                  <button onclick="areaRectangular()"; class="container__boton">CALCULAR</button>
+            </div>
+        </div>
+    <h3 id="rectangulo"></h3>
+    <P> CIRCULAR </P>
+        </div>
+            <input type="number" id="valorRadio" placeholder="Ingrese el valor del radio: ">
+            <div class="chute container__botones">
+                  <button onclick="areaCircular()"; class="container__boton">CALCULAR</button>
+            </div>
+        </div>
+    <h3 id="circulo"></h3>
+    <hr>
+    <div class="container__texto">
+    <h2>Tabla de Multiplicar:</h2>
+        </div>
+            <input type="number" id="valorElegido" placeholder="Ingrese el número del que quieres conocer la tabla: ">
+            <div class="chute container__botones">
+                  <button onclick="calcularTabla()"; class="container__boton">MOSTRAR TABLA</button>
+            </div>
+        </div>
+    <h3 id="tablaMultiplicar"></h3>
+
+    <script src="app.js"></script>
+</body>
+</html>
